@@ -36,7 +36,7 @@ read_parasitic_tech \
 read_sdc $SDC_FILE -version $SDC_VERSION
 
 # Initial floorplanning
-initialize_floorplan -core_utilization 0.9
+initialize_floorplan
 
 # Save design
 save_block

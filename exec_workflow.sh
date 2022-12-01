@@ -37,7 +37,6 @@ case $1 in
         ;;
     
     "ICC")
-        icc2_shell -f "set_up.tcl"
-        icc2_shell -f "optimization.tcl"
+        icc2_shell -x "source set_up.tcl; source optimization.tcl"
         ;;
 esac

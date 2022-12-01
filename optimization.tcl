@@ -46,3 +46,10 @@ remove_redundant_shapes
 # save
 save_block
 save_lib
+
+# DRC checks
+check_pg_drc
+check_routes
+
+## LVS check
+check_lvs -treat_terminal_as_voltage_source true

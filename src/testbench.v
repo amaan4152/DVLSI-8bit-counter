@@ -28,8 +28,7 @@ module testbench();
 	end
 
 	initial begin
-		$sdf_annotate("./results/counter.sdf", DUT1, , "./logs/counter_sdf.log", "MAXIMUM");
-		$dumpfile("./dumpster/sim_tb_counter_500_POSTSYN.vcd");
+		$dumpfile("./dumpster/sim_tb_counter_500_PRESYN.vcd");
 		$dumpvars(0, testbench);
 	end
 

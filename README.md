@@ -1,4 +1,6 @@
 # DVLSI-8bit-counter
+![final_layout](https://user-images.githubusercontent.com/63811852/205077164-edbbc8ea-eb05-4713-a500-fb5cbb023749.png)
+
 ## Start
 ```
 make init

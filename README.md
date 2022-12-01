@@ -19,3 +19,8 @@ make post ID=$ID_NUM TIME=$SIMULATION_DURATION
 ```
 make layout
 ```
+
+## Clean Setup
+```
+make clean
+```

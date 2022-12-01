@@ -1,0 +1,17 @@
+8bit#2dcounter
+alib-52
+cds.lib
+check_workspace.ems
+counter
+counter2
+*.txt
+csrc
+design_lib
+legalizer_debug_plots
+PreFrameCheck
+simv.daidir
+work_dir
+ucli.key
+CLIBs
+dumpster
+logs

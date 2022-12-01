@@ -1,0 +1,55 @@
+ 
+****************************************
+Report : area
+Design : counter
+Version: S-2021.06-SP2
+Date   : Wed Nov 30 23:27:59 2022
+****************************************
+
+Library(s) Used:
+
+    tcbn65gplustc0d8 (File: /afs/ee.cooper.edu/dist/cadence-tools/tsmc65/TSMCHOME/digital/Front_End/timing_power_noise/NLDM/tcbn65gplus_200a/tcbn65gplustc0d8.db)
+
+Number of ports:                           11
+Number of nets:                            28
+Number of cells:                           19
+Number of combinational cells:             11
+Number of sequential cells:                 8
+Number of macros/black boxes:               0
+Number of buf/inv:                          3
+Number of references:                       5
+
+Combinational area:                 65.160000
+Buf/Inv area:                        3.960000
+Noncombinational area:              63.360001
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                   128.520001
+Total area:                 undefined
+
+Core Area:                       236
+Aspect Ratio:                 1.1096
+Utilization Ratio:            0.5434
+
+
+The above information was reported from the logical library. The following are from the physical library:
+
+  Total moveable cell area: 128.5
+  Total fixed cell area: 0.0
+  Total physical cell area: 128.5
+ Core area: 0.000, 0.000, 14.600, 16.200
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+counter                            128.5200    100.0   65.1600    63.3600  0.0000  counter
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+Total                                                  65.1600    63.3600  0.0000
+
+1

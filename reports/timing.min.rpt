@@ -1,0 +1,53 @@
+ 
+****************************************
+Report : timing
+        -path end
+        -delay min
+        -nworst 2
+        -max_paths 200
+Design : counter
+Version: S-2021.06-SP2
+Date   : Wed Nov 30 23:27:59 2022
+****************************************
+
+ * Some/all delay information is back-annotated.
+
+Operating Conditions: BC0D88COM   Library: tcbn65gplusbc0d88
+Wire Load Model Mode: Inactive.
+
+Endpoint                         Path Delay     Path Required     Slack
+------------------------------------------------------------------------
+count_reg[0]/D (DFCNQD1)            0.21 f *          0.10         0.11
+count_reg[3]/D (DFCNQD1)            0.24 f *          0.10         0.14
+count_reg[1]/D (DFCNQD1)            0.24 f *          0.10         0.14
+count_reg[2]/D (DFCNQD1)            0.24 f *          0.10         0.14
+count_reg[3]/D (DFCNQD1)            0.25 f *          0.10         0.15
+count_reg[1]/D (DFCNQD1)            0.25 f *          0.10         0.15
+count_reg[0]/D (DFCNQD1)            0.21 r *          0.06         0.15
+count_reg[2]/D (DFCNQD1)            0.25 f *          0.10         0.15
+count_reg[6]/D (DFCNQD1)            0.31 f *          0.10         0.21
+count_reg[6]/D (DFCNQD1)            0.31 f *          0.10         0.21
+count_reg[5]/D (DFCNQD1)            0.32 f *          0.10         0.22
+count_reg[4]/D (DFCNQD1)            0.32 f *          0.10         0.22
+count_reg[4]/D (DFCNQD1)            0.32 f *          0.10         0.22
+count_reg[5]/D (DFCNQD1)            0.32 f *          0.10         0.22
+count[7] (out)                      0.17 r *         -0.05         0.22
+count[3] (out)                      0.17 r *         -0.05         0.22
+count[2] (out)                      0.17 r *         -0.05         0.22
+count[6] (out)                      0.18 r *         -0.05         0.23
+count[7] (out)                      0.18 f *         -0.05         0.23
+count[4] (out)                      0.18 r *         -0.05         0.23
+count[3] (out)                      0.18 f *         -0.05         0.23
+count[1] (out)                      0.18 r *         -0.05         0.23
+count[5] (out)                      0.18 r *         -0.05         0.23
+count[2] (out)                      0.18 f *         -0.05         0.23
+count[0] (out)                      0.18 r *         -0.05         0.23
+count[6] (out)                      0.18 f *         -0.05         0.23
+count[4] (out)                      0.18 f *         -0.05         0.23
+count[1] (out)                      0.18 f *         -0.05         0.23
+count[5] (out)                      0.18 f *         -0.05         0.23
+count[0] (out)                      0.18 f *         -0.05         0.23
+count_reg[7]/D (DFCNQD1)            0.35 f *          0.10         0.25
+count_reg[7]/D (DFCNQD1)            0.35 f *          0.10         0.25
+
+1

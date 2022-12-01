@@ -1,0 +1,21 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : constraint
+        -all_violators
+        -verbose
+Design : counter
+Version: S-2021.06-SP2
+Date   : Wed Nov 30 23:27:59 2022
+****************************************
+
+
+    Design: counter
+
+    max_leakage_power          0.00
+  - Current Leakage Power    310.73
+  ----------------------------------
+    Slack                   -310.73  (VIOLATED)
+
+
+1

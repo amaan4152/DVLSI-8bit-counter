@@ -1,0 +1,53 @@
+ 
+****************************************
+Report : timing
+        -path end
+        -delay max
+        -nworst 2
+        -max_paths 200
+Design : counter
+Version: S-2021.06-SP2
+Date   : Wed Nov 30 23:27:59 2022
+****************************************
+
+ * Some/all delay information is back-annotated.
+
+Operating Conditions: WC0D72COM   Library: tcbn65gpluswc0d72
+Wire Load Model Mode: Inactive.
+
+Endpoint                         Path Delay     Path Required     Slack
+------------------------------------------------------------------------
+count_reg[7]/D (DFCNQD1)            0.88 r *         99.94        99.06
+count_reg[7]/D (DFCNQD1)            0.88 r *         99.94        99.06
+count_reg[6]/D (DFCNQD1)            0.81 r *         99.94        99.13
+count_reg[6]/D (DFCNQD1)            0.81 r *         99.94        99.13
+count_reg[5]/D (DFCNQD1)            0.73 r *         99.93        99.21
+count_reg[5]/D (DFCNQD1)            0.73 r *         99.93        99.21
+count_reg[4]/D (DFCNQD1)            0.64 r *         99.93        99.29
+count_reg[4]/D (DFCNQD1)            0.64 r *         99.93        99.29
+count_reg[3]/D (DFCNQD1)            0.54 r *         99.94        99.40
+count_reg[3]/D (DFCNQD1)            0.54 r *         99.94        99.40
+count_reg[2]/D (DFCNQD1)            0.45 r *         99.93        99.48
+count_reg[2]/D (DFCNQD1)            0.45 r *         99.93        99.48
+count_reg[1]/D (DFCNQD1)            0.34 r *         99.94        99.60
+count_reg[1]/D (DFCNQD1)            0.33 r *         99.94        99.60
+count[5] (out)                      0.18 f *         99.85        99.67
+count[0] (out)                      0.18 f *         99.85        99.67
+count[1] (out)                      0.18 f *         99.85        99.67
+count[4] (out)                      0.18 f *         99.85        99.67
+count[5] (out)                      0.18 r *         99.85        99.67
+count[0] (out)                      0.18 r *         99.85        99.67
+count[6] (out)                      0.18 f *         99.85        99.67
+count[1] (out)                      0.18 r *         99.85        99.67
+count[2] (out)                      0.18 f *         99.85        99.67
+count[3] (out)                      0.18 f *         99.85        99.67
+count[4] (out)                      0.18 r *         99.85        99.67
+count[7] (out)                      0.18 f *         99.85        99.67
+count[6] (out)                      0.18 r *         99.85        99.67
+count[2] (out)                      0.18 r *         99.85        99.67
+count[3] (out)                      0.17 r *         99.85        99.68
+count[7] (out)                      0.17 r *         99.85        99.68
+count_reg[0]/D (DFCNQD1)            0.21 r *         99.94        99.72
+count_reg[0]/D (DFCNQD1)            0.21 f *         99.96        99.75
+
+1

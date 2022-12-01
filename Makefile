@@ -4,7 +4,7 @@ SCRIPT=exec_workflow.sh
 	init pre post layout clean
 
 init:
-	mkdir logs dumpster
+	mkdir logs logs/misc dumpster dumpster/cmd_outs
 pre:
 	source ~/.bashrc && ./$(SCRIPT) PRE_SYN $(EXP) $(TIME)
 

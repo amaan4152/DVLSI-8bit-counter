@@ -3,15 +3,16 @@ SCRIPT=exec_workflow.sh
 .PHONY:
 	init pre post layout clean
 
-init:
+init: clean
 	mkdir logs logs/misc dumpster dumpster/cmd_outs
-pre:
+
+pre: clean
 	source ~/.bashrc && ./$(SCRIPT) PRE_SYN $(EXP) $(TIME)
 
-post:
+post: clean
 	source ~/.bashrc && ./$(SCRIPT) POST_SYN $(EXP) $(TIME)
 
-layout:
+layout: clean
 	source ~/.bashrc && ./$(SCRIPT) ICC
 
 clean:

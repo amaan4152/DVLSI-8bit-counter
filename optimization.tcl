@@ -52,4 +52,10 @@ check_pg_drc
 check_routes
 
 ## LVS check
-check_lvs -treat_terminal_as_voltage_source true
+check_lvs \
+    -max_errors 0 \
+    -check_zero_spacing_blockages true \
+    -check_top_level_blockages true \
+    -open_reporting detailed \
+    -report_floating_pins true \
+    -treat_terminal_as_voltage_source true 

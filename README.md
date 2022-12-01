@@ -2,6 +2,9 @@
 ![final_layout](https://user-images.githubusercontent.com/63811852/205077164-edbbc8ea-eb05-4713-a500-fb5cbb023749.png)
 
 ## Start
+Create necessary directories: 
+  - `dumpster/`: store `.vcd` waveform files after `vcs`
+  - `logs/`: store any log files and command history logs of `dc_shell` and `icc2_shell`
 ```
 make init
 ```

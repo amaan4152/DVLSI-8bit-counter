@@ -34,4 +34,4 @@ make clean
 ```
 
 ## Future Plans
-The current design needs to further strictly adhere to the standard design rules for TSMC 65nm CMOS technology. For instance, the PG rings are not maximum width. Furthermore, the metal layers for horizontal and vertical PG mesh don't adhere to standard practice of even metal layers for vertical mesh and odd metal layers for horizontal mesh. Overall, design planning can be further improved to better layout practices and adhere stronger to design rules. 
+The current design needs to further strictly adhere to the standard design rules for TSMC 65nm CMOS technology. For instance, the PG rings are not maximum width. Furthermore, the metal layers for horizontal and vertical PG mesh don't adhere to standard practice of even metal layers for vertical mesh and odd metal layers for horizontal mesh. Overall, design planning can be further improved using standard layout practices and adhere strongly to design rules. 

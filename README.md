@@ -1,6 +1,9 @@
 # DVLSI-8bit-counter
 ![final_layout](https://user-images.githubusercontent.com/63811852/205077164-edbbc8ea-eb05-4713-a500-fb5cbb023749.png)
 
+## Abstract
+Constructed 8-bit counter with Verilog HDL and implemented with 65nm CMOS technology. Utilized Synopsys tools such as `vcs`, `dc_shell`, and `icc2_shell`. Verilog simulations where generated with `vcs` and `dc_shell` was used for synthesis. Positive slack is achieved for maximum/minimum full path and total number of instances is 19. Given the synthesized Verilog, `icc2_shell` was used to perform design planning to generate the floorplan with appropriate PG planning. Moreover, placement optimization, clock-tree-synthesis, and routing optimization were conducted. Final layout passes all LVS and DRC checks. 
+
 ## Start
 Create necessary directories: 
   - `dumpster/`: store `.vcd` waveform files after `vcs`
@@ -29,3 +32,6 @@ make layout
 ```
 make clean
 ```
+
+## Future Plans
+The current design needs to further strictly adhere to the standard design rules for TSMC 65nm CMOS technology. For instance, the PG rings are not maximum width. Furthermore, the metal layers for horizontal and vertical PG mesh don't adhere to standard practice of even metal layers for vertical mesh and odd metal layers for horizontal mesh. Overall, design planning can be further improved to better layout practices and adhere stronger to design rules. 
